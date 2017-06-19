@@ -1,0 +1,5 @@
+Discuss ways to use spare output compare channels as independent timers.
+
+Code provided for TIM1/2/3/4, and should be portable across other times without output compare channels.
+
+Code does not use SPL.
