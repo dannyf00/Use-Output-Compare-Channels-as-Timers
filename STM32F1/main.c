@@ -41,9 +41,9 @@ int main(void) {
 	tim2_setpr2(10000*1.01);					//oc2 period slightly off
 	tim2_act2(ledg_flp);
 	//set up oc3/4 for ledb fading
-	tim2_setpr3(10000);							//oc1 period to 10000
+	tim2_setpr3(20000);							//oc1 period to 10000
 	tim2_act3(ledb_flp);						//install user handler
-	tim2_setpr4(10000*1.01);					//oc2 period slightly off
+	tim2_setpr4(20000*1.01);					//oc2 period slightly off
 	tim2_act4(ledb_flp);
 
 	//ei();										//enable global interrupts
