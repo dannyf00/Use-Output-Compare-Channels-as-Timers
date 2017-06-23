@@ -1,0 +1,7 @@
+The code provided earlier works for PIC24FJ/dsPIC chips where dedicated timers (OCxTMR) do not exist.
+
+On some PIC24FJ chips (PIC24FJxxGA10x for example), the output compare modules have their own dedicated timers, OC1TMR..OC5TMR, which can be other timers, or the system clock.
+
+For those chips, the following code is provided to get you up to 5 additional "virtual clocks".
+
+Note: there is no prescaler on those chips for the output compare modules. the calls below, tmroc_initn(), n=1..5, take a prescaler parameter for compatability reasons. That parameter is simply ignored by the call.
