@@ -1,1 +1,3 @@
 Using output compare channels as timers on PIC24FJxxGA002 and like chips.
+
+User can select to use wither TMR2 or TMR3 as the time base, through the USE_TMR2 switch.
