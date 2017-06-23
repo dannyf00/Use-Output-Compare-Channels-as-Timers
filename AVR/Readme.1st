@@ -1,0 +1,3 @@
+Using spare output compare channels on AVR as timers.
+
+Code compiled for ATmega328p, using gcc-avr.
